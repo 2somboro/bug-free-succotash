@@ -1,1 +1,309 @@
+<!DOCTYPE html>
 
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Inscription</title>
+
+</head>
+
+<body>
+
+<style>
+
+    h1{ text-align: center;
+
+      
+
+    }
+
+    
+
+    body{
+
+    background:#BBDEFB no-repeat;
+
+ background-size: 180%;
+
+      
+
+    }
+
+    
+
+    legend{font-family: cursive;
+
+      font-size: 40px;
+
+      
+
+    }
+
+    fieldset{
+
+      border-radius: 12px;
+
+    }
+
+    input{
+
+    background-color: silver;
+
+    opacity: 0.4;
+
+    border-top-left-radius: 7px;
+
+    border-bottom-right-radius: 7px;
+
+      font-family: monospace
+
+    }
+
+    
+
+   
+
+optgroup { color-adjust: green;
+
+  
+
+}
+
+   
+
+section a{
+
+  color:burlywood;
+
+  text-decoration:none;
+
+  text-transform: uppercase;
+
+  font-size:16px;
+
+}
+
+section .highlight, section .current a{
+
+  color:#e8491d;
+
+  font-weight:bold;
+
+}
+
+section a:hover{
+
+  color:#cccc90;
+
+  font-weight:bold;
+
+}
+
+section{
+
+    padding-bottom:20px;
+
+  }
+
+  label{ font-family: monospace;
+
+    
+
+  }
+
+  select{width: 200px;
+
+  height: 30px;
+
+  border-radius: 7px;
+
+  font-family: cursive;
+
+  background-color: gray;
+
+   
+
+  }
+
+  option{ font-family: monospace;
+
+  background-color: gray;
+
+  
+
+    
+
+  }
+
+  ret{ border-radius: 5px;
+
+color: limegreen;}
+
+  button{ box-shadow: 6px 6px 6px black;
+
+  border-radius: 5px;
+
+  background-color:gray;
+
+  opacity: 2;
+
+    
+
+  }
+
+  
+
+    h1{
+
+      text-align:center;
+
+    
+
+      
+
+      }
+
+      span{
+
+        font-family: cursive;
+
+      }
+
+      header{
+
+      
+
+        
+
+      }
+
+  </style>
+
+  <header>
+
+  <h1 id="1h"><span>A</span>g🔘ram</h1>
+
+</header>
+
+  <section>
+
+    
+
+  
+
+  
+
+  </section>
+
+  <form action="récupération.php" method="post"></form>
+
+    <fieldset style="border-style: double">
+
+      <fieldset>
+
+        
+
+      
+
+    <legend ><span>Vos informations</span></legend>
+
+    <input type="text" name="nom" value="Nom" onfocus="this.value=''"
+
+    /> </br></br>
+
+    <input type="text" name="prénom" value="Prénom" onfocus="this.value=''"/>
+
+    </br></br>
+
+   <input type="tel" name="téléphone" id="téléphone" value="téléphone" onfocus="this.value=''">
+
+   
+
+  
+
+    </br>
+
+    <label>Sexe</label>
+
+    <input type="radio" name="sexe"
+
+      value="Homme" >Homme
+
+    <input type="radio" name="sexe"
+
+      value="Femme" >Femme </br></br>
+
+   <label>Date de naissance:</label>  <input type="date" value=" JJ / MM / AA " onfocus="this.value=''"></br>
+
+    </fieldset>
+
+    <fieldset>
+
+   <legend>Langue préférée</legend>
+
+   <label for=""></label>
+
+   <p>
+
+   <select name="filière" id="fili">
+
+   
+
+     <option value="Français">Français</option>
+
+     
+
+     
+
+ 
+
+      <option value="Anglais">Anglais</option>
+
+   
+
+   </select>
+
+   
+
+   
+
+ 
+
+  </fieldset></p></br>
+
+</br>
+
+ <fieldset>
+
+   <legend>profil</legend>
+
+   <label for="photos de profil">Image de profil</label>
+
+   <input type="file" name="fichier" accept="image/jpeg" style="border-radius: 7px"/></br></br>
+
+    <input type="hidden" name="MAX_FILE_SIZE" value="10000" /> </fieldset>
+
+    </br>
+
+    <button  type="reset" > Effacez </button>
+
+    &nbsp;&nbsp;&nbsp;<a href="programme.php"><button type="submit"  >S'inscrire</button></a>    &nbsp;&nbsp;&nbsp;<button type=""><a href="index.html" >Se Connecter</a></button>
+
+    
+
+      
+
+    </fieldset>
+
+ </br></br>
+
+ 
+
+</body>
+
+</html>
